@@ -74,7 +74,6 @@ export default async function getPage({
       return makePage({
         ...mergedOptions,
         route: pageData.redirect.destination,
-        isClientSideNavigation: false,
       });
     }
 
